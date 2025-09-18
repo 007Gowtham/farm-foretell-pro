@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +49,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Agricultural Color Extensions
+        earth: "hsl(var(--earth-brown))",
+        soil: "hsl(var(--soil-dark))",
+        wheat: "hsl(var(--wheat-gold))",
+        crop: "hsl(var(--crop-green))",
+        sky: "hsl(var(--sky-blue))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +65,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Poppins', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-earth': 'var(--gradient-earth)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        soft: 'var(--shadow-soft)',
+        strong: 'var(--shadow-strong)',
+      },
+      transitionProperty: {
+        smooth: 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
